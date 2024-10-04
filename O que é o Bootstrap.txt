@@ -1,0 +1,13 @@
+O que é o Bootstrap?:
+
+o Bootstrap é um framework CSS para ser utilizado no front-end de aplicações web. Ele utiliza JavaScript e CSS para estilizar as páginas e adicionar funcionalidades que vão além de apenas proporcionar um visual bonito ao site. Isso porque ele permite implementar menus de navegação, controles de paginação, formulários, janelas modais e muito mais.
+
+Como funciona:
+
+A principal característica do Bootstrap é a responsividade do site, ou seja, seu objetivo é permitir que os elementos da página sejam readaptados para o acesso em diferentes dispositivos, como notebooks, tablets, smartphones e, até mesmo, para monitores maiores que os tradicionais.
+
+Para utilizar os recursos do Bootstrap, basta referenciar seus arquivos principais na página principal e aplicar os estilos correspondentes nos elementos da página. É importante dizer que o Bootstrap pode ser utilizado em aplicações desenvolvidas em diferentes linguagens de programação e frameworks, entre elas: PHP, Ruby, .Net, Angular e em CMS, como o WordPress, ou em uma simples página HTML.
+
+Isso significa que ele se adapta bem a diferentes tipos de aplicações. Não é à toa que o Bootstrap é o segundo colocado entre as bibliotecas de JavaScript mais utilizadas no mercado, conforme o comparativo no site W3Techs.
+
+Créditos: https://blog.betrybe.com/bootstrap/#1
