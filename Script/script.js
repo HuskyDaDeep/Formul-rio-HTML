@@ -16,8 +16,8 @@ function formatarTelefone(input) {
 
 function formatarcep(input){
     let value = input.value.replace(/\D/g, '');
-    input.value = value.replace(/^(\d{2})(\d{3})(\d)/, '$1-$2-$3');
-    input.value = input.value.replace(/(\d)(\d{2})$/, '$1$2');
+    input.value = value.replace(/^(\d{2})(\d{3})(\d)/, '$1$2-$3');
+    input.value = input.value.replace(/(\d)(\d{4})$/, '$1$2');
 }
 
 
