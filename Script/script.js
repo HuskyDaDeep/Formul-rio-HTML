@@ -13,11 +13,14 @@ function formatarTelefone(input) {
         input.value = input.value.replace(/(\d)(\d{4})$/, '$1-$2'); // Finaliza a formatação
     }
 }
+
 function formatarcep(input){
     let value = input.value.replace(/\D/g, '');
     input.value = value.replace(/^(\d{2})(\d{3})(\d)/, '$1-$2-$3');
     input.value = input.value.replace(/(\d)(\d{2})$/, '$1$2');
 }
+
+
 
 const estados = [
     "Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", 
@@ -28,3 +31,13 @@ const estados = [
     "Rondônia", "Roraima", "Santa Catarina", "São Paulo", 
     "Sergipe", "Tocantins"
 ];
+
+const select = document.getElementById('estados');
+
+// Adiciona as opções ao select
+estados.forEach(estado => {
+    const option = document.createElement('option');
+    option.value = estado; // Valor da opção
+    option.textContent = estado; // Texto exibido na opção
+    select.appendChild(option);
+});
